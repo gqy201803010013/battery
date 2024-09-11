@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="service-base" />
+        <module name="common-utils" />
+        <module name="service1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bettery" target="1.8" />
+      <module name="bettery-demo1" target="1.8" />
+      <module name="com" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="common-utils" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service-base" target="1.8" />
+      <module name="service1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bettery" options="" />
+      <module name="bettery-demo1" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="common-utils" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="service-base" options="-parameters" />
+      <module name="service1" options="-parameters" />
+    </option>
+  </component>
+</project>
