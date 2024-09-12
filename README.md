@@ -1,9 +1,9 @@
-# battery
+
 
 
 ---
 
-# 项目名称
+# battery 
 
 这是一个基于前后端分离的项目，前端使用 Vue.js，后端基于 Spring Boot 开发，后端项目由 Maven 进行管理。
 
